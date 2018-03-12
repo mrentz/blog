@@ -6,5 +6,5 @@ class Article < ApplicationRecord
   include Elasticsearch::Model::Callbacks
 end
 
-Article.import force: true# for auto sync model with elastic search
+Article.import force: true # for auto sync model with elastic search
 
